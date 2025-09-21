@@ -6,12 +6,12 @@
       "use": "@vercel/static-build",
       "config": {
         "distDir": "build"
-      },
-      "env": {
-        "DISABLE_ESLINT_PLUGIN": "true"
       }
     }
   ],
+  "env": {
+    "DISABLE_ESLINT_PLUGIN": "true"
+  },
   "rewrites": [
     {
       "source": "/((?!static/).*)",
